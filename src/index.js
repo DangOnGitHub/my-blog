@@ -7,12 +7,14 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './About';
 import Blog from './Blog';
 import NotFound from './NotFound';
+import Home from './Home';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
+          <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="blog" element={<Blog />} />
         </Route>

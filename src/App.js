@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <nav className='nav nav-tabs justify-content-center'>
+        <NavLink className='nav-link' to="/">Home</NavLink>
         <NavLink className='nav-link' to="/about">About Me</NavLink>
         <NavLink className='nav-link' to="/blog">Blog</NavLink>
       </nav>
